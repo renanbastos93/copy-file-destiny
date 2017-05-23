@@ -1,7 +1,7 @@
-var renan = {};
+var teste = {};
 
-renan.init = "ola";
-renan.firstFunction = () => {return 'algo'};
-renan.fim = 'seila';
+teste.init = "ola";
+teste.firstFunction = () => {return 'algo'};
+teste.fim = 'seila';
 
- module.exports = renan;
+module.exports = renan;
