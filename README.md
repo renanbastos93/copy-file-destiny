@@ -1,5 +1,4 @@
 # copy-file-destiny
-Copying file to a new destiny with new names of the variables
 
 ## About
 Copying file to a new destiny with new names of the variables
