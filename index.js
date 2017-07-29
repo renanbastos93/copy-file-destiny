@@ -29,7 +29,7 @@ api.create = function(file){
   return fs.createWriteStream(file, 'utf8');
 };
 
-var a = copy({teste: 'renan', init: 'inicio', fim: 'end'},'newTeste.js', 'muchParams.js');
-var b = copy({'teste': 'renan'}, 'newTeste.js', 'normaly.js');
-a.stream.write(a.data)
-b.stream.write(b.data)
+// var a = copy({teste: 'renan', init: 'inicio', fim: 'end'},'newTeste.js', 'muchParams.js');
+// var b = copy({'teste': 'renan'}, 'newTeste.js', 'normaly.js');
+// a.stream.write(a.data)
+// b.stream.write(b.data)
