@@ -1,0 +1,19 @@
+{
+  "name": "copy-file-destiny",
+  "version": "1.0.0",
+  "description": "Copying file to a new destiny with new names of the variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbastos93/copy-file-destiny.git"
+  },
+  "author": "Renan Bastos (renanbastos.tec@gmail.com) - @renanbastos93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanbastos93/copy-file-destiny/issues"
+  },
+  "homepage": "https://github.com/renanbastos93/copy-file-destiny#readme"
+}
