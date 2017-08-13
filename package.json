@@ -1,6 +1,6 @@
 {
   "name": "copy-file-destiny",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Copying file to a new destiny with new names of the variables.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/renanbastos93/copy-file-destiny/issues"
   },
-  "homepage": "https://github.com/renanbastos93/copy-file-destiny#readme"
+  "homepage": "https://github.com/renanbastos93/copy-file-destiny#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
 }
