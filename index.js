@@ -1,29 +1,29 @@
 const fs = require('fs');
 const copyFileDestiny = {};
 
-copyFileDestiny.exists = function(file){
+copyFileDestiny.exists = (file) => {
   return fs.existsSync('./'+file);
 };
 
-copyFileDestiny.changeVariables = function(vars, ready){
+copyFileDestiny.changeVariables = (vars, ready) => {
 	for(v in vars){
 		ready = ready.replace(RegExp(v, 'gi'), vars[v]);
 	};
 	return ready;
 };
 
-copyFileDestiny.ready = function(file){
+copyFileDestiny.ready = (file) => {
     return fs.readFileSync(__dirname+'/'+file, 'utf8');
 };
 
-copyFileDestiny.create = function(file){
+copyFileDestiny.create = (file) => {
   return fs.createWriteStream(file, 'utf8');
 };
 
-module.exports = function(vars, oldFile, newFile){
-  var data = '';
+module.exports = (vars, oldFile, newFile) => {
+  let data = '';
   if(copyFileDestiny.exists(oldFile)){
-    var ready = copyFileDestiny.ready(oldFile);
+    const ready = copyFileDestiny.ready(oldFile);
     data = copyFileDestiny.changeVariables(vars, ready);
   }
   if(data != ('' || null || undefined)){
